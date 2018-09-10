@@ -7,7 +7,7 @@ def line(katz_deli)
     line_string = ""
     current_index = 0
     while current_index < katz_deli.size
-      line_string = line_string + "#{current_index +1}. #{katz_deli[current_index] "
+      line_string = line_string + '{current_index +1}. #{katz_deli[current_index] '
     end
     puts intro + line_string
   end
