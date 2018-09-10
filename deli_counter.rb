@@ -4,6 +4,7 @@ def line(katz_deli)
     return "The line is currently empty"
   else
     return "The line is currently:katz_deli.size"
+  end
 end
 
 def take_a_number(katz_deli,person)
