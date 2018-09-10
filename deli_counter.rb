@@ -6,6 +6,9 @@ def line(katz_deli)
     intro = "The line is currently: "
     line_string = ""
     current_index = 0
+    while current_index < katz_deli.size
+      
+    end
   end
 end
 
