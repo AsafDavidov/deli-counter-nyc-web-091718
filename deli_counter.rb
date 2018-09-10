@@ -3,11 +3,11 @@ def line(katz_deli)
   if katz_deli.size < 1
     puts "The line is currently empty."
   else
-    intro = "The line is currently: "
+    intro = "The line is currently:"
     line_string = ""
     current_index = 0
     while current_index < katz_deli.size
-      line_string = line_string + "#{current_index + 1}. #{katz_deli[current_index]} "
+      line_string = line_string + " #{current_index + 1}. #{katz_deli[current_index]}"
       current_index+=1
     end
     puts intro + line_string
