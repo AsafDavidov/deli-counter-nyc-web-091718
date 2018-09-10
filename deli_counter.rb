@@ -5,4 +5,5 @@ def line(katz_deli)
   else
     return "The line is currently:katz_deli.size"
 end
-def take_a_number(katz_deli)
+def take_a_number(katz_deli,person)
+  katz_deli.push(person)
