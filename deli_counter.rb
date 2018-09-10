@@ -3,13 +3,14 @@ def line(katz_deli)
   if katz_deli.size < 1
     puts "The line is currently empty."
   else
-    puts "The line is currently:katz_deli.size"
+    intro = "The line is currently: "
+    
   end
 end
 
 def take_a_number(katz_deli,person)
   katz_deli.push(person)
-  puts "Welcome, #{person}. You are number #{katz_deli.size} in line"
+  puts "Welcome, #{person}. You are number #{katz_deli.size} in line."
 end
 
 def now_serving(katz_deli)
