@@ -1,5 +1,7 @@
 # Write your code here.
-katz_deli = []
-def line()
-  if katz_deli.size
+def line(katz_deli)
+  if katz_deli.size < 1
+    return "The line is currently empty"
+  else
+    katz_deli.size
 end
