@@ -3,7 +3,7 @@ def line(katz_deli)
   if katz_deli.size < 1
     puts "The line is currently empty."
   else
-    return "The line is currently:katz_deli.size"
+    puts "The line is currently:katz_deli.size"
   end
 end
 
