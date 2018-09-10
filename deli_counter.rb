@@ -5,6 +5,7 @@ def line(katz_deli)
   else
     intro = "The line is currently: "
     
+    
   end
 end
 
